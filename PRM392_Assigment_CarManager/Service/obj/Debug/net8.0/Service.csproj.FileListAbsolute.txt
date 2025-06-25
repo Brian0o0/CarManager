@@ -1,0 +1,15 @@
+D:\SUMMER2025\PRM391\Assigment\PRM392_Assigment_CarManager\Service\bin\Debug\net8.0\Service.deps.json
+D:\SUMMER2025\PRM391\Assigment\PRM392_Assigment_CarManager\Service\bin\Debug\net8.0\Service.dll
+D:\SUMMER2025\PRM391\Assigment\PRM392_Assigment_CarManager\Service\bin\Debug\net8.0\Service.pdb
+D:\SUMMER2025\PRM391\Assigment\PRM392_Assigment_CarManager\Service\bin\Debug\net8.0\Repositories.dll
+D:\SUMMER2025\PRM391\Assigment\PRM392_Assigment_CarManager\Service\bin\Debug\net8.0\Repositories.pdb
+D:\SUMMER2025\PRM391\Assigment\PRM392_Assigment_CarManager\Service\obj\Debug\net8.0\Service.csproj.AssemblyReference.cache
+D:\SUMMER2025\PRM391\Assigment\PRM392_Assigment_CarManager\Service\obj\Debug\net8.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\SUMMER2025\PRM391\Assigment\PRM392_Assigment_CarManager\Service\obj\Debug\net8.0\Service.AssemblyInfoInputs.cache
+D:\SUMMER2025\PRM391\Assigment\PRM392_Assigment_CarManager\Service\obj\Debug\net8.0\Service.AssemblyInfo.cs
+D:\SUMMER2025\PRM391\Assigment\PRM392_Assigment_CarManager\Service\obj\Debug\net8.0\Service.csproj.CoreCompileInputs.cache
+D:\SUMMER2025\PRM391\Assigment\PRM392_Assigment_CarManager\Service\obj\Debug\net8.0\Service.csproj.Up2Date
+D:\SUMMER2025\PRM391\Assigment\PRM392_Assigment_CarManager\Service\obj\Debug\net8.0\Service.dll
+D:\SUMMER2025\PRM391\Assigment\PRM392_Assigment_CarManager\Service\obj\Debug\net8.0\refint\Service.dll
+D:\SUMMER2025\PRM391\Assigment\PRM392_Assigment_CarManager\Service\obj\Debug\net8.0\Service.pdb
+D:\SUMMER2025\PRM391\Assigment\PRM392_Assigment_CarManager\Service\obj\Debug\net8.0\ref\Service.dll

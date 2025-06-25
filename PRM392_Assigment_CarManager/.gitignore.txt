@@ -1,0 +1,81 @@
+    # Visual Studio temporary files and folders
+    .vs/
+    *.suo
+    *.user
+    *.log
+    *.pdb
+    *.opendata
+    *.bak
+    *.sbr
+    *.bsc
+    *.ncb
+    *.res
+
+    # Binaries and object files
+    [Dd]ebug/
+    [Rr]elease/
+    [Bb]in/
+    [Oo]bj/
+    *.dll
+    *.exe
+    *.ilk
+    *.obj
+    *.idb
+    *.lib
+    *.exp
+    *.com
+    *.ocx
+    *.tlb
+    *.fxo
+    *.o
+    *.aps
+    *.pch
+
+    # Test Results
+    TestResults/
+
+    # Package Manager (NuGet)
+    packages/
+    *.nupkg
+    project.lock.json
+    packages.config
+    # This is added to prevent Visual Studio from creating an empty packages folder.
+    # It's usually safe to ignore the packages folder itself.
+    # But if you're using PackageReference in .csproj, this might not be needed.
+    # However, it's generally good practice to let NuGet restore packages rather than committing them.
+    # It also helps avoid conflicts when multiple developers work on the same project.
+
+    # User-specific files
+    *.csproj.user
+    *.sln.user
+
+    # VS Code files (if you're using VS Code)
+    .vscode/
+
+    # Rider files (if you're using JetBrains Rider)
+    .idea/
+
+    # Other common build artifacts
+    build/
+    Build/
+    dist/
+    Dist/
+
+    # Azure specific files
+    *.publishsettings
+    *.pubxml
+    *.pfx
+    *.cer
+    *.snk
+
+    # npm / Node.js
+    node_modules/
+
+    # Database files (if local, e.g., SQL Server LocalDB)
+    *.mdf
+    *.ldf
+
+    # Any other local temporary files
+    Temp/
+    temp/
+    
