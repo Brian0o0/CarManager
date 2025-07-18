@@ -86,7 +86,7 @@ namespace WebAPI.Controllers
         // PUT: api/CarTypes/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        [Authorize]
+        [Authorize(Roles = "Admin")] // Only Admins can delete car types
         public async Task<IActionResult> PutCarType(int id, CarTypeRequestModel carType)
         {
             try
@@ -109,7 +109,7 @@ namespace WebAPI.Controllers
         // POST: api/CarTypes
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        [Authorize]
+        [Authorize(Roles = "Admin")] // Only Admins can delete car types
         public async Task<ActionResult<CarTypeResponModel>> PostCarType(CarTypeRequestModel carType)
         {
             try
@@ -134,7 +134,7 @@ namespace WebAPI.Controllers
 
         // DELETE: api/CarTypes/5
         [HttpDelete("{id}")]
-        [Authorize]
+        [Authorize(Roles = "Admin")] // Only Admins can delete car types
         public async Task<IActionResult> DeleteCarType(int id)
         {
             var carType = await _carTypeService.GetCarTypeByidDefaultAsync(id);

@@ -27,7 +27,7 @@ namespace WebAPI.Controllers
 
         // GET: api/Users
         [HttpGet]
-        [Authorize] 
+        [Authorize(Roles = "Admin")] // Only Admins should see all users
         public async Task<ActionResult<IEnumerable<User>>> GetUsers(string search = null, string sortBy = null, int? page = null, int? pageSize = null)
         {
             try
@@ -64,7 +64,7 @@ namespace WebAPI.Controllers
 
         // GET: api/Users/5
         [HttpGet("{id}")]
-        [Authorize] // Bảo vệ API này chỉ cho phép người dùng đã xác thực truy cập
+        [Authorize(Roles = "Seller,Buyer,Admin")] // Admin can see any user. Sellers/Buyers can see their own profile and potentially public info of others.
         public async Task<ActionResult<UserResponModel>> GetUser(int id)
         {
             var user = await _userService.GetAccountByIdAsync(id);
@@ -78,7 +78,7 @@ namespace WebAPI.Controllers
         // PUT: api/Users/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        [Authorize] // Bảo vệ API này chỉ cho phép người dùng đã xác thực truy cập
+        [Authorize(Roles = "Seller,Buyer,Admin")] // Users can update their own profile; Admin can update any profile
         public async Task<IActionResult> PutUser(int id, UserRequestModel user)
         {
             try
@@ -101,7 +101,7 @@ namespace WebAPI.Controllers
         // POST: api/Users
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        [Authorize] // Bảo vệ API này chỉ cho phép người dùng đã xác thực truy cập
+        [AllowAnonymous] // New users register without authentication
         public async Task<ActionResult<UserResponModel>> PostUser(UserRequestModel user)
         {
             try
@@ -126,7 +126,7 @@ namespace WebAPI.Controllers
 
         // DELETE: api/Users/5
         [HttpDelete("{id}")]
-        [Authorize] // Bảo vệ API này chỉ cho phép người dùng đã xác thực truy cập
+        [Authorize(Roles = "Admin")] // Only Admins can delete users
         public async Task<IActionResult> DeleteUser(int id)
         {
             var user = await _userService.GetAccountByidDefaultAsync(id);

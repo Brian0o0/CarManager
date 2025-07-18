@@ -26,7 +26,6 @@ namespace WebAPI.Controllers
 
         // GET: api/Cars
         [HttpGet]
-        [Authorize]
         public async Task<ActionResult<IEnumerable<CarResponModel>>> GetCars(
             string search = null,
             string sortBy = null,
@@ -86,7 +85,6 @@ namespace WebAPI.Controllers
 
         // GET: api/Cars/5
         [HttpGet("{id}")]
-        [Authorize]
         public async Task<ActionResult<CarResponModel>> GetCar(int id)
         {
             var car = await _carService.GetCarByIdAsync(id);
@@ -100,7 +98,7 @@ namespace WebAPI.Controllers
         // PUT: api/Cars/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        [Authorize]
+        [Authorize(Roles = "Seller,Admin")]
         public async Task<IActionResult> PutCar(int id, CarRequestModel car)
         {
             try
@@ -123,7 +121,7 @@ namespace WebAPI.Controllers
         // POST: api/Cars
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        [Authorize]
+        [Authorize(Roles = "Seller,Admin")]
         public async Task<ActionResult<CarResponModel>> PostCar(CarRequestModel car)
         {
             try
@@ -148,7 +146,7 @@ namespace WebAPI.Controllers
 
         // DELETE: api/Cars/5
         [HttpDelete("{id}")]
-        [Authorize]
+        [Authorize(Roles = "Seller,Admin")]
         public async Task<IActionResult> DeleteCar(int id)
         {
             var car = await _carService.GetCarByidDefaultAsync(id);

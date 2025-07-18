@@ -267,3 +267,4 @@ D:\SUMMER2025\PRM391\Assigment\PRM392_Assigment_CarManager\WebAPI\obj\Debug\net8
 D:\SUMMER2025\PRM391\Assigment\PRM392_Assigment_CarManager\WebAPI\obj\Debug\net8.0\WebAPI.genruntimeconfig.cache
 D:\SUMMER2025\PRM391\Assigment\PRM392_Assigment_CarManager\WebAPI\obj\Debug\net8.0\ref\WebAPI.dll
 D:\SUMMER2025\PRM391\Assigment\PRM392_Assigment_CarManager\WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\SUMMER2025\PRM391\Assigment\PRM392_Assigment_CarManager\WebAPI\obj\Debug\net8.0\WebAPI.sourcelink.json

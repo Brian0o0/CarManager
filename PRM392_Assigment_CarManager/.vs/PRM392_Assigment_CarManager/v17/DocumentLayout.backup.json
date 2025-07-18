@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "D:\\SUMMER2025\\PRM391\\Assigment\\PRM392_Assigment_CarManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{100628CE-66C4-47C0-B039-8473FD05CEA5}|Service\\Service.csproj|d:\\summer2025\\prm391\\assigment\\prm392_assigment_carmanager\\service\\mapper\\mappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100628CE-66C4-47C0-B039-8473FD05CEA5}|Service\\Service.csproj|solutionrelative:service\\mapper\\mappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{998BEFCA-1A69-4071-A634-BD57C8B595D7}|WebAPI\\WebAPI.csproj|d:\\summer2025\\prm391\\assigment\\prm392_assigment_carmanager\\webapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{998BEFCA-1A69-4071-A634-BD57C8B595D7}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{998BEFCA-1A69-4071-A634-BD57C8B595D7}|WebAPI\\WebAPI.csproj|d:\\summer2025\\prm391\\assigment\\prm392_assigment_carmanager\\webapi\\controllers\\transactionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{998BEFCA-1A69-4071-A634-BD57C8B595D7}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\transactionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{998BEFCA-1A69-4071-A634-BD57C8B595D7}|WebAPI\\WebAPI.csproj|d:\\summer2025\\prm391\\assigment\\prm392_assigment_carmanager\\webapi\\controllers\\cartypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,16 +27,12 @@
       "RelativeMoniker": "D:0:0:{998BEFCA-1A69-4071-A634-BD57C8B595D7}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{100628CE-66C4-47C0-B039-8473FD05CEA5}|Service\\Service.csproj|d:\\summer2025\\prm391\\assigment\\prm392_assigment_carmanager\\service\\mapper\\mappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100628CE-66C4-47C0-B039-8473FD05CEA5}|Service\\Service.csproj|solutionrelative:service\\mapper\\mappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{998BEFCA-1A69-4071-A634-BD57C8B595D7}|WebAPI\\WebAPI.csproj|d:\\summer2025\\prm391\\assigment\\prm392_assigment_carmanager\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{998BEFCA-1A69-4071-A634-BD57C8B595D7}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{998BEFCA-1A69-4071-A634-BD57C8B595D7}|WebAPI\\WebAPI.csproj|d:\\summer2025\\prm391\\assigment\\prm392_assigment_carmanager\\webapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{998BEFCA-1A69-4071-A634-BD57C8B595D7}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{998BEFCA-1A69-4071-A634-BD57C8B595D7}|WebAPI\\WebAPI.csproj|d:\\summer2025\\prm391\\assigment\\prm392_assigment_carmanager\\webapi\\controllers\\transactionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{998BEFCA-1A69-4071-A634-BD57C8B595D7}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\transactionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{100628CE-66C4-47C0-B039-8473FD05CEA5}|Service\\Service.csproj|d:\\summer2025\\prm391\\assigment\\prm392_assigment_carmanager\\service\\businessmodel\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -118,7 +118,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -126,15 +126,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CarsController.cs",
               "DocumentMoniker": "D:\\SUMMER2025\\PRM391\\Assigment\\PRM392_Assigment_CarManager\\WebAPI\\Controllers\\CarsController.cs",
               "RelativeDocumentMoniker": "WebAPI\\Controllers\\CarsController.cs",
               "ToolTip": "D:\\SUMMER2025\\PRM391\\Assigment\\PRM392_Assigment_CarManager\\WebAPI\\Controllers\\CarsController.cs",
               "RelativeToolTip": "WebAPI\\Controllers\\CarsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJYAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAYwBsAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-24T10:02:03.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TransactionsController.cs",
+              "DocumentMoniker": "D:\\SUMMER2025\\PRM391\\Assigment\\PRM392_Assigment_CarManager\\WebAPI\\Controllers\\TransactionsController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\TransactionsController.cs",
+              "ToolTip": "D:\\SUMMER2025\\PRM391\\Assigment\\PRM392_Assigment_CarManager\\WebAPI\\Controllers\\TransactionsController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\TransactionsController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAQwBwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T10:03:12.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CarTypesController.cs",
+              "DocumentMoniker": "D:\\SUMMER2025\\PRM391\\Assigment\\PRM392_Assigment_CarManager\\WebAPI\\Controllers\\CarTypesController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\CarTypesController.cs",
+              "ToolTip": "D:\\SUMMER2025\\PRM391\\Assigment\\PRM392_Assigment_CarManager\\WebAPI\\Controllers\\CarTypesController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\CarTypesController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T18:23:26.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\SUMMER2025\\PRM391\\Assigment\\PRM392_Assigment_CarManager\\WebAPI\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\SUMMER2025\\PRM391\\Assigment\\PRM392_Assigment_CarManager\\WebAPI\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T10:03:35.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\SUMMER2025\\PRM391\\Assigment\\PRM392_Assigment_CarManager\\WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "WebAPI\\appsettings.json",
+              "ToolTip": "D:\\SUMMER2025\\PRM391\\Assigment\\PRM392_Assigment_CarManager\\WebAPI\\appsettings.json",
+              "RelativeToolTip": "WebAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-24T09:54:40.743Z",
               "EditorCaption": ""
             },
             {
@@ -152,31 +204,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "TransactionsController.cs",
-              "DocumentMoniker": "D:\\SUMMER2025\\PRM391\\Assigment\\PRM392_Assigment_CarManager\\WebAPI\\Controllers\\TransactionsController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\TransactionsController.cs",
-              "ToolTip": "D:\\SUMMER2025\\PRM391\\Assigment\\PRM392_Assigment_CarManager\\WebAPI\\Controllers\\TransactionsController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\TransactionsController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAIEAAABXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T10:03:12.607Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\SUMMER2025\\PRM391\\Assigment\\PRM392_Assigment_CarManager\\WebAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "WebAPI\\appsettings.json",
-              "ToolTip": "D:\\SUMMER2025\\PRM391\\Assigment\\PRM392_Assigment_CarManager\\WebAPI\\appsettings.json",
-              "RelativeToolTip": "WebAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-24T09:54:40.743Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\SUMMER2025\\PRM391\\Assigment\\PRM392_Assigment_CarManager\\WebAPI\\Program.cs",
               "RelativeDocumentMoniker": "WebAPI\\Program.cs",
@@ -188,7 +215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Authentication.cs",
               "DocumentMoniker": "D:\\SUMMER2025\\PRM391\\Assigment\\PRM392_Assigment_CarManager\\WebAPI\\Controllers\\Authentication.cs",
               "RelativeDocumentMoniker": "WebAPI\\Controllers\\Authentication.cs",
@@ -201,20 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CarTypesController.cs",
-              "DocumentMoniker": "D:\\SUMMER2025\\PRM391\\Assigment\\PRM392_Assigment_CarManager\\WebAPI\\Controllers\\CarTypesController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\CarTypesController.cs",
-              "ToolTip": "D:\\SUMMER2025\\PRM391\\Assigment\\PRM392_Assigment_CarManager\\WebAPI\\Controllers\\CarTypesController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\CarTypesController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAA1wFoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T18:23:26.75Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Mappers.cs",
               "DocumentMoniker": "D:\\SUMMER2025\\PRM391\\Assigment\\PRM392_Assigment_CarManager\\Service\\Mapper\\Mappers.cs",
               "RelativeDocumentMoniker": "Service\\Mapper\\Mappers.cs",
@@ -222,8 +236,7 @@
               "RelativeToolTip": "Service\\Mapper\\Mappers.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T08:17:53.165Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T08:17:53.165Z"
             },
             {
               "$type": "Document",
@@ -248,18 +261,6 @@
               "ViewState": "AgIAAEEAAAAAAAAAAAAMwFsAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-24T08:03:48.963Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "D:\\SUMMER2025\\PRM391\\Assigment\\PRM392_Assigment_CarManager\\WebAPI\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\UsersController.cs",
-              "ToolTip": "D:\\SUMMER2025\\PRM391\\Assigment\\PRM392_Assigment_CarManager\\WebAPI\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAIAAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T10:03:35.722Z"
             },
             {
               "$type": "Document",
