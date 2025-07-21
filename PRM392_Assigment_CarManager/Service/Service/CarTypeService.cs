@@ -96,7 +96,7 @@ namespace Service.Service
 
                 // Chỉ cập nhật những trường cần thiết
                 existingCarType.TypeName = carTypeRequest.TypeName;
-                existingCarType.Description = existingCarType.Description;
+                existingCarType.Description = carTypeRequest.Description;
               
 
                 // Lưu thay đổi

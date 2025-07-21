@@ -13,3 +13,4 @@ D:\SUMMER2025\PRM391\Assigment\PRM392_Assigment_CarManager\Service\obj\Debug\net
 D:\SUMMER2025\PRM391\Assigment\PRM392_Assigment_CarManager\Service\obj\Debug\net8.0\refint\Service.dll
 D:\SUMMER2025\PRM391\Assigment\PRM392_Assigment_CarManager\Service\obj\Debug\net8.0\Service.pdb
 D:\SUMMER2025\PRM391\Assigment\PRM392_Assigment_CarManager\Service\obj\Debug\net8.0\ref\Service.dll
+D:\SUMMER2025\PRM391\Assigment\PRM392_Assigment_CarManager\Service\obj\Debug\net8.0\Service.sourcelink.json

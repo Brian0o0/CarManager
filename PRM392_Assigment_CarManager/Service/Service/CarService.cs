@@ -70,7 +70,7 @@ namespace Service.Service
 
         public async Task<CarResponModel> GetCarByidDefaultAsync(int id)
         {
-            var car = await _unitOfWork.CarTypeRepository.GetByIdAsync(id);
+            var car = await _unitOfWork.CarRepository.GetByIdAsync(id);
             return _mapper.Map<CarResponModel>(car);
         }
 
