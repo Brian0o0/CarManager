@@ -2938,32 +2938,39 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\NMK\\.nuget\\packages\\": {}
+    "C:\\Users\\ADMIN\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Study\\PRM\\CarManager\\PRM392_Assigment_CarManager\\Service\\Service.csproj",
+      "projectUniqueName": "D:\\SUMMER2025\\PRM391\\Assigment\\PRM392_Assigment_CarManager\\Service\\Service.csproj",
       "projectName": "Service",
-      "projectPath": "D:\\Study\\PRM\\CarManager\\PRM392_Assigment_CarManager\\Service\\Service.csproj",
-      "packagesPath": "C:\\Users\\NMK\\.nuget\\packages\\",
-      "outputPath": "D:\\Study\\PRM\\CarManager\\PRM392_Assigment_CarManager\\Service\\obj\\",
+      "projectPath": "D:\\SUMMER2025\\PRM391\\Assigment\\PRM392_Assigment_CarManager\\Service\\Service.csproj",
+      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+      "outputPath": "D:\\SUMMER2025\\PRM391\\Assigment\\PRM392_Assigment_CarManager\\Service\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\NMK\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Study\\PRM\\CarManager\\PRM392_Assigment_CarManager\\Repositories\\Repositories.csproj": {
-              "projectPath": "D:\\Study\\PRM\\CarManager\\PRM392_Assigment_CarManager\\Repositories\\Repositories.csproj"
+            "D:\\SUMMER2025\\PRM391\\Assigment\\PRM392_Assigment_CarManager\\Repositories\\Repositories.csproj": {
+              "projectPath": "D:\\SUMMER2025\\PRM391\\Assigment\\PRM392_Assigment_CarManager\\Repositories\\Repositories.csproj"
             }
           }
         }
@@ -2977,7 +2984,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -3004,7 +3012,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.412/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
