@@ -79,17 +79,7 @@ builder.Services.AddAuthentication(options =>
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
     };
 });
-builder.Services.AddAuthorization(options =>
-{
-    options.AddPolicy("AdminPolicy", policy =>
-        policy.RequireRole("Admin")); // Role 1 là Admin
-    options.AddPolicy("UserPolicy", policy =>
-        policy.RequireRole("Staff")); // Role 2 là User
-    options.AddPolicy("AdminPolicy", policy =>
-       policy.RequireRole("Seller")); // Role 1 là Admin
-    options.AddPolicy("UserPolicy", policy =>
-        policy.RequireRole("Buyer")); // Role 2 là User
-});
+
 
 var app = builder.Build();
 
