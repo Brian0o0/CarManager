@@ -34,6 +34,8 @@ namespace Service.BusinessModel
 
         public string Status { get; set; }
 
+        public string Image { get; set; }
+
         public DateOnly? ListingDate { get; set; }
 
         public int? SellerId { get; set; }
@@ -61,6 +63,8 @@ namespace Service.BusinessModel
         public string Description { get; set; }
 
         public string Status { get; set; }
+
+        public string Image { get; set; }
 
         public DateOnly? ListingDate { get; set; }
 

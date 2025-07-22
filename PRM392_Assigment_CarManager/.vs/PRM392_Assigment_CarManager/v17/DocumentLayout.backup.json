@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "D:\\Summer2025\\PRM392\\Assigment\\CarManager\\PRM392_Assigment_CarManager\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{100628CE-66C4-47C0-B039-8473FD05CEA5}|Service\\Service.csproj|d:\\summer2025\\prm392\\assigment\\carmanager\\prm392_assigment_carmanager\\service\\service\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100628CE-66C4-47C0-B039-8473FD05CEA5}|Service\\Service.csproj|solutionrelative:service\\service\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100628CE-66C4-47C0-B039-8473FD05CEA5}|Service\\Service.csproj|d:\\summer2025\\prm392\\assigment\\carmanager\\prm392_assigment_carmanager\\service\\businessmodel\\carmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100628CE-66C4-47C0-B039-8473FD05CEA5}|Service\\Service.csproj|solutionrelative:service\\businessmodel\\carmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFA43069-C197-4349-9B6B-3EB0BE7F6E1A}|Repositories\\Repositories.csproj|d:\\summer2025\\prm392\\assigment\\carmanager\\prm392_assigment_carmanager\\repositories\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFA43069-C197-4349-9B6B-3EB0BE7F6E1A}|Repositories\\Repositories.csproj|solutionrelative:repositories\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFA43069-C197-4349-9B6B-3EB0BE7F6E1A}|Repositories\\Repositories.csproj|d:\\summer2025\\prm392\\assigment\\carmanager\\prm392_assigment_carmanager\\repositories\\models\\carmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFA43069-C197-4349-9B6B-3EB0BE7F6E1A}|Repositories\\Repositories.csproj|solutionrelative:repositories\\models\\carmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{998BEFCA-1A69-4071-A634-BD57C8B595D7}|WebAPI\\WebAPI.csproj|d:\\summer2025\\prm392\\assigment\\carmanager\\prm392_assigment_carmanager\\webapi\\controllers\\authentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{998BEFCA-1A69-4071-A634-BD57C8B595D7}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\authentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{998BEFCA-1A69-4071-A634-BD57C8B595D7}|WebAPI\\WebAPI.csproj|d:\\summer2025\\prm392\\assigment\\carmanager\\prm392_assigment_carmanager\\webapi\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{998BEFCA-1A69-4071-A634-BD57C8B595D7}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{100628CE-66C4-47C0-B039-8473FD05CEA5}|Service\\Service.csproj|d:\\summer2025\\prm392\\assigment\\carmanager\\prm392_assigment_carmanager\\service\\service\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100628CE-66C4-47C0-B039-8473FD05CEA5}|Service\\Service.csproj|solutionrelative:service\\service\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{100628CE-66C4-47C0-B039-8473FD05CEA5}|Service\\Service.csproj|d:\\summer2025\\prm392\\assigment\\carmanager\\prm392_assigment_carmanager\\service\\interface\\icarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -87,18 +99,6 @@
       "RelativeMoniker": "D:0:0:{100628CE-66C4-47C0-B039-8473FD05CEA5}|Service\\Service.csproj|solutionrelative:service\\interface\\itransactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFA43069-C197-4349-9B6B-3EB0BE7F6E1A}|Repositories\\Repositories.csproj|d:\\summer2025\\prm392\\assigment\\carmanager\\prm392_assigment_carmanager\\repositories\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFA43069-C197-4349-9B6B-3EB0BE7F6E1A}|Repositories\\Repositories.csproj|solutionrelative:repositories\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{100628CE-66C4-47C0-B039-8473FD05CEA5}|Service\\Service.csproj|d:\\summer2025\\prm392\\assigment\\carmanager\\prm392_assigment_carmanager\\service\\businessmodel\\carmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100628CE-66C4-47C0-B039-8473FD05CEA5}|Service\\Service.csproj|solutionrelative:service\\businessmodel\\carmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFA43069-C197-4349-9B6B-3EB0BE7F6E1A}|Repositories\\Repositories.csproj|d:\\summer2025\\prm392\\assigment\\carmanager\\prm392_assigment_carmanager\\repositories\\models\\carmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFA43069-C197-4349-9B6B-3EB0BE7F6E1A}|Repositories\\Repositories.csproj|solutionrelative:repositories\\models\\carmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{100628CE-66C4-47C0-B039-8473FD05CEA5}|Service\\Service.csproj|d:\\summer2025\\prm392\\assigment\\carmanager\\prm392_assigment_carmanager\\service\\service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{100628CE-66C4-47C0-B039-8473FD05CEA5}|Service\\Service.csproj|solutionrelative:service\\service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -126,19 +126,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CarsController.cs",
-              "DocumentMoniker": "D:\\Summer2025\\PRM392\\Assigment\\CarManager\\PRM392_Assigment_CarManager\\WebAPI\\Controllers\\CarsController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\CarsController.cs",
-              "ToolTip": "D:\\Summer2025\\PRM392\\Assigment\\CarManager\\PRM392_Assigment_CarManager\\WebAPI\\Controllers\\CarsController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\CarsController.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAuwGQAAAAiAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Car.cs",
+              "DocumentMoniker": "D:\\Summer2025\\PRM392\\Assigment\\CarManager\\PRM392_Assigment_CarManager\\Repositories\\Models\\Car.cs",
+              "RelativeDocumentMoniker": "Repositories\\Models\\Car.cs",
+              "ToolTip": "D:\\Summer2025\\PRM392\\Assigment\\CarManager\\PRM392_Assigment_CarManager\\Repositories\\Models\\Car.cs",
+              "RelativeToolTip": "Repositories\\Models\\Car.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T10:02:03.741Z"
+              "WhenOpened": "2025-07-22T03:58:20.078Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "CarManagementContext.cs",
+              "DocumentMoniker": "D:\\Summer2025\\PRM392\\Assigment\\CarManager\\PRM392_Assigment_CarManager\\Repositories\\Models\\CarManagementContext.cs",
+              "RelativeDocumentMoniker": "Repositories\\Models\\CarManagementContext.cs",
+              "ToolTip": "D:\\Summer2025\\PRM392\\Assigment\\CarManager\\PRM392_Assigment_CarManager\\Repositories\\Models\\CarManagementContext.cs",
+              "RelativeToolTip": "Repositories\\Models\\CarManagementContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T03:58:14.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Summer2025\\PRM392\\Assigment\\CarManager\\PRM392_Assigment_CarManager\\WebAPI\\Program.cs",
               "RelativeDocumentMoniker": "WebAPI\\Program.cs",
@@ -146,12 +160,11 @@
               "RelativeToolTip": "WebAPI\\Program.cs",
               "ViewState": "AgIAADwAAAAAAAAAAAAAAFEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T09:56:36.474Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T09:56:36.474Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "ICarService.cs",
               "DocumentMoniker": "D:\\Summer2025\\PRM392\\Assigment\\CarManager\\PRM392_Assigment_CarManager\\Service\\Interface\\ICarService.cs",
               "RelativeDocumentMoniker": "Service\\Interface\\ICarService.cs",
@@ -163,19 +176,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "CarService.cs",
               "DocumentMoniker": "D:\\Summer2025\\PRM392\\Assigment\\CarManager\\PRM392_Assigment_CarManager\\Service\\Service\\CarService.cs",
               "RelativeDocumentMoniker": "Service\\Service\\CarService.cs",
               "ToolTip": "D:\\Summer2025\\PRM392\\Assigment\\CarManager\\PRM392_Assigment_CarManager\\Service\\Service\\CarService.cs",
               "RelativeToolTip": "Service\\Service\\CarService.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAowCcAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAUwJwAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T15:35:29.064Z"
+              "WhenOpened": "2025-06-24T15:35:29.064Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Authentication.cs",
               "DocumentMoniker": "D:\\Summer2025\\PRM392\\Assigment\\CarManager\\PRM392_Assigment_CarManager\\WebAPI\\Controllers\\Authentication.cs",
               "RelativeDocumentMoniker": "WebAPI\\Controllers\\Authentication.cs",
@@ -188,7 +202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "CarTypesController.cs",
               "DocumentMoniker": "D:\\Summer2025\\PRM392\\Assigment\\CarManager\\PRM392_Assigment_CarManager\\WebAPI\\Controllers\\CarTypesController.cs",
               "RelativeDocumentMoniker": "WebAPI\\Controllers\\CarTypesController.cs",
@@ -200,7 +214,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "CarModel.cs",
+              "DocumentMoniker": "D:\\Summer2025\\PRM392\\Assigment\\CarManager\\PRM392_Assigment_CarManager\\Service\\BusinessModel\\CarModel.cs",
+              "RelativeDocumentMoniker": "Service\\BusinessModel\\CarModel.cs",
+              "ToolTip": "D:\\Summer2025\\PRM392\\Assigment\\CarManager\\PRM392_Assigment_CarManager\\Service\\BusinessModel\\CarModel.cs",
+              "RelativeToolTip": "Service\\BusinessModel\\CarModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T07:32:20.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CarsController.cs",
+              "DocumentMoniker": "D:\\Summer2025\\PRM392\\Assigment\\CarManager\\PRM392_Assigment_CarManager\\WebAPI\\Controllers\\CarsController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\CarsController.cs",
+              "ToolTip": "D:\\Summer2025\\PRM392\\Assigment\\CarManager\\PRM392_Assigment_CarManager\\WebAPI\\Controllers\\CarsController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\CarsController.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAuwGQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T10:02:03.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "TransactionsController.cs",
               "DocumentMoniker": "D:\\Summer2025\\PRM392\\Assigment\\CarManager\\PRM392_Assigment_CarManager\\WebAPI\\Controllers\\TransactionsController.cs",
               "RelativeDocumentMoniker": "WebAPI\\Controllers\\TransactionsController.cs",
@@ -212,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "UsersController.cs",
               "DocumentMoniker": "D:\\Summer2025\\PRM392\\Assigment\\CarManager\\PRM392_Assigment_CarManager\\WebAPI\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "WebAPI\\Controllers\\UsersController.cs",
@@ -224,7 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Summer2025\\PRM392\\Assigment\\CarManager\\PRM392_Assigment_CarManager\\WebAPI\\appsettings.json",
               "RelativeDocumentMoniker": "WebAPI\\appsettings.json",
@@ -236,7 +275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "CarTypeService.cs",
               "DocumentMoniker": "D:\\Summer2025\\PRM392\\Assigment\\CarManager\\PRM392_Assigment_CarManager\\Service\\Service\\CarTypeService.cs",
               "RelativeDocumentMoniker": "Service\\Service\\CarTypeService.cs",
@@ -248,7 +287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "CarTypeModel.cs",
               "DocumentMoniker": "D:\\Summer2025\\PRM392\\Assigment\\CarManager\\PRM392_Assigment_CarManager\\Service\\BusinessModel\\CarTypeModel.cs",
               "RelativeDocumentMoniker": "Service\\BusinessModel\\CarTypeModel.cs",
@@ -260,7 +299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "ICarTypeService.cs",
               "DocumentMoniker": "D:\\Summer2025\\PRM392\\Assigment\\CarManager\\PRM392_Assigment_CarManager\\Service\\Interface\\ICarTypeService.cs",
               "RelativeDocumentMoniker": "Service\\Interface\\ICarTypeService.cs",
@@ -272,7 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "UserService.cs",
               "DocumentMoniker": "D:\\Summer2025\\PRM392\\Assigment\\CarManager\\PRM392_Assigment_CarManager\\Service\\Service\\UserService.cs",
               "RelativeDocumentMoniker": "Service\\Service\\UserService.cs",
@@ -284,7 +323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "D:\\Summer2025\\PRM392\\Assigment\\CarManager\\PRM392_Assigment_CarManager\\Repositories\\Repository\\GenericRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\Repository\\GenericRepository.cs",
@@ -296,7 +335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "IGenericRepository.cs",
               "DocumentMoniker": "D:\\Summer2025\\PRM392\\Assigment\\CarManager\\PRM392_Assigment_CarManager\\Repositories\\Interface\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\Interface\\IGenericRepository.cs",
@@ -308,7 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "TransactionService.cs",
               "DocumentMoniker": "D:\\Summer2025\\PRM392\\Assigment\\CarManager\\PRM392_Assigment_CarManager\\Service\\Service\\TransactionService.cs",
               "RelativeDocumentMoniker": "Service\\Service\\TransactionService.cs",
@@ -320,7 +359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Mappers.cs",
               "DocumentMoniker": "D:\\Summer2025\\PRM392\\Assigment\\CarManager\\PRM392_Assigment_CarManager\\Service\\Mapper\\Mappers.cs",
               "RelativeDocumentMoniker": "Service\\Mapper\\Mappers.cs",
@@ -332,7 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "UserModel.cs",
               "DocumentMoniker": "D:\\Summer2025\\PRM392\\Assigment\\CarManager\\PRM392_Assigment_CarManager\\Service\\BusinessModel\\UserModel.cs",
               "RelativeDocumentMoniker": "Service\\BusinessModel\\UserModel.cs",
@@ -344,7 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "IUserService.cs",
               "DocumentMoniker": "D:\\Summer2025\\PRM392\\Assigment\\CarManager\\PRM392_Assigment_CarManager\\Service\\Interface\\IUserService.cs",
               "RelativeDocumentMoniker": "Service\\Interface\\IUserService.cs",
@@ -356,7 +395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "TransactionModel.cs",
               "DocumentMoniker": "D:\\Summer2025\\PRM392\\Assigment\\CarManager\\PRM392_Assigment_CarManager\\Service\\BusinessModel\\TransactionModel.cs",
               "RelativeDocumentMoniker": "Service\\BusinessModel\\TransactionModel.cs",
@@ -368,7 +407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "ITransactionService.cs",
               "DocumentMoniker": "D:\\Summer2025\\PRM392\\Assigment\\CarManager\\PRM392_Assigment_CarManager\\Service\\Interface\\ITransactionService.cs",
               "RelativeDocumentMoniker": "Service\\Interface\\ITransactionService.cs",
@@ -377,42 +416,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-24T07:30:37.749Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Car.cs",
-              "DocumentMoniker": "D:\\Summer2025\\PRM392\\Assigment\\CarManager\\PRM392_Assigment_CarManager\\Repositories\\Models\\Car.cs",
-              "RelativeDocumentMoniker": "Repositories\\Models\\Car.cs",
-              "ToolTip": "D:\\Summer2025\\PRM392\\Assigment\\CarManager\\PRM392_Assigment_CarManager\\Repositories\\Models\\Car.cs",
-              "RelativeToolTip": "Repositories\\Models\\Car.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T08:30:08.691Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "CarModel.cs",
-              "DocumentMoniker": "D:\\Summer2025\\PRM392\\Assigment\\CarManager\\PRM392_Assigment_CarManager\\Service\\BusinessModel\\CarModel.cs",
-              "RelativeDocumentMoniker": "Service\\BusinessModel\\CarModel.cs",
-              "ToolTip": "D:\\Summer2025\\PRM392\\Assigment\\CarManager\\PRM392_Assigment_CarManager\\Service\\BusinessModel\\CarModel.cs",
-              "RelativeToolTip": "Service\\BusinessModel\\CarModel.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAswCsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T07:32:20.475Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "CarManagementContext.cs",
-              "DocumentMoniker": "D:\\Summer2025\\PRM392\\Assigment\\CarManager\\PRM392_Assigment_CarManager\\Repositories\\Models\\CarManagementContext.cs",
-              "RelativeDocumentMoniker": "Repositories\\Models\\CarManagementContext.cs",
-              "ToolTip": "D:\\Summer2025\\PRM392\\Assigment\\CarManager\\PRM392_Assigment_CarManager\\Repositories\\Models\\CarManagementContext.cs",
-              "RelativeToolTip": "Repositories\\Models\\CarManagementContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T08:30:00.405Z"
             },
             {
               "$type": "Document",

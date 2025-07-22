@@ -35,6 +35,8 @@ public partial class Car
 
     public string CarName { get; set; }
 
+    public string Image { get; set; }
+
     public virtual CarType CarType { get; set; }
 
     public virtual User Seller { get; set; }

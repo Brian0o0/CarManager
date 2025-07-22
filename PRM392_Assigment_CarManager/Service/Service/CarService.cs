@@ -154,7 +154,7 @@ namespace Service.Service
                 existingCar.Description = carRequest.Description;
                 existingCar.Status = carRequest.Status;
                 existingCar.SellerId = carRequest.SellerId;
-
+                existingCar.Image = carRequest.Image;
                 // Lưu thay đổi
                 _unitOfWork.CarRepository.Update(existingCar);
                 await _unitOfWork.SaveChangesAsync();

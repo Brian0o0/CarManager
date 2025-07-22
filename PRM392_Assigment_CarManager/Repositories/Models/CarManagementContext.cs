@@ -61,9 +61,9 @@ public partial class CarManagementContext : DbContext
 
         modelBuilder.Entity<CarType>(entity =>
         {
-            entity.HasKey(e => e.CarTypeId).HasName("PK__CarTypes__2B2E84BDD57E91FF");
+            entity.HasKey(e => e.CarTypeId).HasName("PK__CarTypes__2B2E84BD07F7656C");
 
-            entity.HasIndex(e => e.TypeName, "UQ__CarTypes__D4E7DFA8446A5308").IsUnique();
+            entity.HasIndex(e => e.TypeName, "UQ__CarTypes__D4E7DFA8E3A2334A").IsUnique();
 
             entity.Property(e => e.CarTypeId).HasColumnName("CarTypeID");
             entity.Property(e => e.Description).HasColumnType("text");
@@ -74,7 +74,7 @@ public partial class CarManagementContext : DbContext
 
         modelBuilder.Entity<Transaction>(entity =>
         {
-            entity.HasKey(e => e.TransactionId).HasName("PK__Transact__55433A4BCC19FC7B");
+            entity.HasKey(e => e.TransactionId).HasName("PK__Transact__55433A4B9A757BAB");
 
             entity.Property(e => e.TransactionId).HasColumnName("TransactionID");
             entity.Property(e => e.BuyerId).HasColumnName("BuyerID");
@@ -90,7 +90,7 @@ public partial class CarManagementContext : DbContext
             entity.HasOne(d => d.Buyer).WithMany(p => p.Transactions)
                 .HasForeignKey(d => d.BuyerId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Transacti__Buyer__49C3F6B7");
+                .HasConstraintName("FK__Transacti__Buyer__48CFD27E");
 
             entity.HasOne(d => d.Car).WithMany(p => p.Transactions)
                 .HasForeignKey(d => d.CarId)
@@ -100,11 +100,11 @@ public partial class CarManagementContext : DbContext
 
         modelBuilder.Entity<User>(entity =>
         {
-            entity.HasKey(e => e.UserId).HasName("PK__Users__1788CCAC36D3A4F5");
+            entity.HasKey(e => e.UserId).HasName("PK__Users__1788CCAC039A082B");
 
-            entity.HasIndex(e => e.Username, "UQ__Users__536C85E4F64D960F").IsUnique();
+            entity.HasIndex(e => e.Username, "UQ__Users__536C85E4E4788C8D").IsUnique();
 
-            entity.HasIndex(e => e.Email, "UQ__Users__A9D105341D30EAAF").IsUnique();
+            entity.HasIndex(e => e.Email, "UQ__Users__A9D10534F90DB8F0").IsUnique();
 
             entity.Property(e => e.UserId).HasColumnName("UserID");
             entity.Property(e => e.Address).HasMaxLength(255);
