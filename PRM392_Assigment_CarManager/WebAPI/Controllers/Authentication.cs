@@ -36,19 +36,20 @@ namespace WebAPI.Controllers
             if (user != null)
             {
                 // Tạo Token JWT
-                var token = GenerateJwtToken(user.Email, user.UserType); // Thêm vai trò (role) nếu cần
+                var token = GenerateJwtToken(user.Email, user.UserType, user.UserId); // Thêm vai trò (role) nếu cần
                 return Ok(new { token });
             }
 
             return Unauthorized(new { message = "Invalid email or password" });
         }
-        private string GenerateJwtToken(string email, string role)
+        private string GenerateJwtToken(string email, string role, int id)
         {
             var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
             var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
 
             var claims = new[]
             {
+                new Claim(ClaimTypes.NameIdentifier, id.ToString()),
                 new Claim(ClaimTypes.Name, email),
                 new Claim(ClaimTypes.Role, role.ToString()), // Vai trò (role) của người dùng
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
