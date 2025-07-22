@@ -78,4 +78,8 @@
     # Any other local temporary files
     Temp/
     temp/
+
+    # App settings files (local, sensitive config)
+    appsettings.json
+    appsettings.*.json
     
