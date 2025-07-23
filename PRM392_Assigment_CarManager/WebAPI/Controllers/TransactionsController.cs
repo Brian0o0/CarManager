@@ -63,6 +63,44 @@ namespace WebAPI.Controllers
             }
         }
 
+        // GET: api/Transactions
+        [HttpGet("GetByUserID")]
+        [Authorize(Roles = "Seller,Buyer,Admin")] // Adjust based on strictness
+        public async Task<ActionResult<IEnumerable<TransactionResponModel>>> GetTransactionsByUserId(int id, int? page = null, int? pageSize = null)
+        {
+            try
+            {
+                // Gọi service để lấy danh sách sản phẩm
+                var transactions = await _transactionService.GetTransactionsByUserIdAsync(
+                id = id,
+                page = page,
+                pageSize = page
+            );
+
+                // Kiểm tra dữ liệu trả về
+                if (transactions == null)
+                {
+                    return NotFound(new { Message = "No transactions found." });
+                }
+
+                // Trả về dữ liệu cùng mã trạng thái HTTP 200 OK
+                return Ok(new
+                {
+                    PageIndex = page,
+                    PageSize = pageSize,
+                    Items = transactions
+                });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, new
+                {
+                    Message = "An error occurred while processing the request.",
+                    Details = ex.Message
+                });
+            }
+        }
+
         // GET: api/Transactions/5
         [HttpGet("{id}")]
         [Authorize(Roles = "Seller,Buyer,Admin")] // Adjust based on strictness

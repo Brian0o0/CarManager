@@ -81,6 +81,16 @@ namespace Service.Service
             return _mapper.Map<IEnumerable<TransactionResponModel>>(transactions);
         }
 
+        public async Task<IEnumerable<TransactionResponModel>> GetTransactionsByUserIdAsync(int id, int? page = null, int? pageSize = null)
+        {
+            var transactions = await _unitOfWork.TransactionRepository.GetAllAsyn(
+               fillter: c => c.BuyerId == id,
+                currentPage: page,
+                pagesize: pageSize
+           );
+            return _mapper.Map<IEnumerable<TransactionResponModel>>(transactions);
+        }
+
         public async Task UpdateTransactionAsync(int id, TransactionRequestModel transactionRequest)
         {
             try

@@ -15,6 +15,11 @@ namespace Service.Interface
                int? page = null,
                int? pageSize = null
         );
+        Task<IEnumerable<TransactionResponModel>> GetTransactionsByUserIdAsync(
+               int id,
+               int? page = null,
+               int? pageSize = null
+        );
         Task<TransactionResponModel> AddTransactionAsync(TransactionRequestModel transactionRequest);
         Task UpdateTransactionAsync(int id, TransactionRequestModel transactionRequest);
         Task DeleteTransactionAsync(int id);
